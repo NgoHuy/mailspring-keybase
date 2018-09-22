@@ -1,0 +1,30 @@
+{
+  "name": "keybase",
+  "main": "./lib/main",
+  "version": "0.1.0",
+  "engines": {
+    "mailspring": ">=0.3.0"
+  },
+  "isOptional": true,
+  "isHiddenOnPluginsPage": true,
+  "title": "Encryption",
+  "description": "Send and receive encrypted messages using Keybase for public key exchange.",
+  "icon": "./icon.png",
+  "license": "GPL-3.0",
+  "windowTypes": {
+    "default": true,
+    "composer": true,
+    "thread-popout": true
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-react-createelement-to-jsx": "^1.0.1",
+    "coffee-react": "^5.0.1",
+    "kbpgp": "^2.0.79",
+    "lebab": "^3.0.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "request": "^2.88.0",
+    "underscore": "^1.9.1"
+  }
+}
