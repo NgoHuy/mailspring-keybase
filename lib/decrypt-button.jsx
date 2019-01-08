@@ -12,7 +12,7 @@ const {
   MessageStore,
   React,
   ReactDOM,
-  FileDownloadStore,
+  AttachmentStore,
   MessageBodyProcessor,
   Actions
 } = require("mailspring-exports");

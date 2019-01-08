@@ -12,7 +12,7 @@
 import MailspringStore from "mailspring-store";
 const {
   Actions,
-  FileDownloadStore,
+  AttachmentStore,
   DraftStore,
   MessageBodyProcessor,
   RegExpUtils
@@ -671,7 +671,7 @@ class PGPKeyStore extends MailspringStore {
       keyring.add_key_manager(identity.key);
     }
 
-    return FileDownloadStore._fetchAndSaveAll(files).then(filepaths =>
+    return AttachmentStore._fetchAndSaveAll(files).then(filepaths =>
       // open, decrypt, and resave each of the newly-downloaded files in place
       _.each(filepaths, filepath => {
         return fs.readFile(filepath, (err, data) => {
