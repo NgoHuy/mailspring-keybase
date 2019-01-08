@@ -24,7 +24,7 @@ module.exports = PassphrasePopover = (function() {
         addresses: PropTypes.array
       };
     }
-    constructor() {
+    constructor(props) {
       super(props);
       this._onPassphraseChange = this._onPassphraseChange.bind(this);
       this._onKeyUp = this._onKeyUp.bind(this);
