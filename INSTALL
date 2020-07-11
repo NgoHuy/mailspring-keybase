@@ -1,0 +1,10 @@
+The following installation instruction reference to David's issue, "Add install instructions in Readme.md."
+
+1. Clone repository into any location
+2. Run the command `cd /path/to/mailspring-keybase`
+3. Install babel and other dependencies: `npm install`
+4. Compile source codes to vanilla js with babel: `./node_modules/.bin/babel src --out-dir lib`
+3. Start Mailspring and add plugin - you should see a success notification
+4. Close Mailspring and edit config.json and remove keybase from disabled plugins list (config.json can be found in different places depending on your OS. Search for the Mailspring folder in your filesystem)
+5. Start Mailspring, key management can be found in preferences
+

@@ -17,7 +17,9 @@
     "thread-popout": true
   },
   "dependencies": {
-    "babel-cli": "^6.26.0",
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
     "babel-plugin-transform-react-createelement-to-jsx": "^1.0.1",
     "coffee-react": "^5.0.1",
     "kbpgp": "^2.0.79",
@@ -26,5 +28,8 @@
     "react": "^16.5.2",
     "request": "^2.88.0",
     "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.4"
   }
 }
