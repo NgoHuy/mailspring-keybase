@@ -27,7 +27,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
     "request": "^2.88.0",
-    "underscore": "^1.9.1"
+    "underscore": "^1.12.1"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.10.4"
